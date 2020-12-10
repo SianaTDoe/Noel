@@ -75,14 +75,15 @@ legend {
     
 }
 
+
 /* BOUTONS */
 
 .boutnorm {
     
-    background-color: #d1c6d1;
+    background-color: #d1c6d1a1;
     border-radius: 50px;
     border: 4px  #cccccc;
-    color: #b89393;
+    color: #b48686;
     text-align: center;
     font-size: 15px;
     padding: 7px;
@@ -98,10 +99,10 @@ legend {
 
 
 .boutnoel {
-    background-color: #db627c;
+    background-color: #5f5f5f7a;
     border-radius: 60px;
     border: 2px  #110a0a;
-    color: #3a1515;
+    color: #8a3f3f;
     text-align: center;
     font-size: 20px;
     padding: 15px;
