@@ -1,0 +1,1 @@
+Alors le mieux ça aurait été de mettre tes images dans le HTML directement, avec un style="display:none" et sur le js tu récup toute tes div, et quand tu clique tu fait un display none sur tous, et un siplay block sur celui qe tu veux afficher
