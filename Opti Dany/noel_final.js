@@ -5,8 +5,8 @@ buttons.forEach(button => {
     button.addEventListener('click', e => {
         button.classList.add('rotate');
         images.forEach(image => image.style.display = 'none');
-        button.nextElementSibling.lastElementChild.style.display = 'inline-block';
-        button.nextElementSibling.lastElementChild.classList.add('showImg');
+        button.nextElementSibling.style.display = 'inline-block';
+        button.nextElementSibling.classList.add('showImg');
     });
 });
 
