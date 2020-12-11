@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(214, 210, 210);
+    background-color: rgb(255, 230, 161);
 }
 
 
@@ -8,12 +8,13 @@ body {
 fieldset {
     border-radius: 25px;
     border-width: 7px;
-    border-style: double;
-    border-bottom-color: silver;
+    border-style: ridge;
+    border-color: red;
+    /* border-bottom-color: silver;
     border-left-color: silver;
     border-top-color: white; 
-    border-right-color: white; 
-    background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+    border-right-color: white;  */
+    background-image: url("img_noel/background5.jfif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,13 +22,15 @@ fieldset {
 
 legend {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(235, 181, 168);
+    color: rgb(255, 59, 59);
     text-shadow: 0.1em 0.2em 0.2em black,
     -0.1em -0.1em 0.1em black;
+    
 
 }
+
 
 
 
@@ -36,7 +39,7 @@ legend {
 
 .cases {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-weight: bold;
     font-size: 1.2em;
     font-family: fantasy;
@@ -82,7 +85,7 @@ legend {
 
 .boutnorm {
     
-    background-color: #d1c6d1a1;
+    /* background-color: #d1c6d1a1;
     border-radius: 50px;
     border: 4px  #cccccc;
     color: #b48686;
@@ -92,17 +95,26 @@ legend {
     width: 100px;
     margin: 8px;
     font-family: cursive;
-    outline: none;
+    outline: none; */
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }
 
+
+
+
 .boutnorm:hover {
-    background-color: rgb(238, 233, 163);
+    /* background-color: rgb(238, 233, 163); */
+    border-radius: 50px;
+    border-width: 7px;
+    border-style: dotted;
+    border-color: rgb(87, 86, 86);
     }
 
 
 
 .boutnoel {
-    background-color: #5f5f5f7a;
+    /* background-color: #5f5f5f7a;
     border-radius: 60px;
     border: 2px  #110a0a;
     color: #8a3f3f;
@@ -112,12 +124,17 @@ legend {
     width: 1100px;
     margin: 10px;
     font-family: cursive;
-    outline: none;
+    outline: none; */
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 
 }   
 
 .boutnoel:hover {
-    background-color: silver;
+    border-radius: 50px;
+    border-width: 7px;
+    border-style: dotted;
+    border-color: rgb(87, 86, 86);
 }
 
 .images {
