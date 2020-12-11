@@ -3,8 +3,10 @@ const buttons = document.querySelectorAll('button'),
 
 buttons.forEach(button => {
     button.addEventListener('click', e => {
+        button.classList.add('rotate');
         images.forEach(image => image.style.display = 'none');
         button.nextElementSibling.lastElementChild.style.display = 'inline-block';
+        button.nextElementSibling.lastElementChild.classList.add('showImg');
     });
 });
 

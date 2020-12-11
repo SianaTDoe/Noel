@@ -37,12 +37,23 @@ legend {
 
 /* MISE EN PLACE DES COLONNES  */
 
+
 .cases {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     font-weight: bold;
     font-size: 1.2em;
     font-family: fantasy;
+    height: 100%;
+    width: 100%;
+}
+
+.cases>div {
+    width: 10vw;
+    margin: 0.5rem;
+    position: relative;
+    display: flex;
 }
 
 
@@ -97,7 +108,11 @@ legend {
     font-family: cursive;
     outline: none; */
     background-color: rgba(255, 255, 255, 0);
-    border: none;
+    border-radius: 50px;
+    border-width: 7px;
+    border-style: dotted;
+    border-color: rgba(87, 86, 86, 0);
+    
 }
 
 
@@ -126,7 +141,10 @@ legend {
     font-family: cursive;
     outline: none; */
     background-color: rgba(255, 255, 255, 0);
-    border: none;
+    border-radius: 50px;
+    border-width: 7px;
+    border-style: dotted;
+    border-color: rgba(87, 86, 86, 0);
 
 }   
 
@@ -138,11 +156,21 @@ legend {
 }
 
 .images {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: scale(0);
 }
 
-.merci {
-    text-align: right;
-    font-size: small;
-    color: grey;
+.showImg {
+    transition: 2s;
+    transform: scale(1);
 }
+
+.rotate {
+    transition: 0.5s;
+    transform: rotateY(90deg);
+}
+
